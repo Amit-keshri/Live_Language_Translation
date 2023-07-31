@@ -3,7 +3,7 @@ let fromText = document.querySelector('.fromText');
 let transText = document.querySelector('.toTranslate');
 let fromVoice = document.querySelector('.from');
 let toVoice = document.querySelector('.to');
-let cpyBtn = document.querySelector('bx-copy');
+let cpyBtn = document.querySelector('.bx-copy');
 let countValue = document.querySelector('.code_length');
 let exchangLang = document.querySelector('.bx-transfer');
 
