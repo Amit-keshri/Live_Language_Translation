@@ -16,7 +16,7 @@ let exchangLang = document.querySelector('.bx-transfer');
             selected = "selected";
         }
 
-        let option = `<opton value = "${countryCode}">${language[countryCode]}</option>`;
+        let option = `<option value = "${countryCode}">${language[countryCode]}</option>`;
         get.insertAdjacentHTML('beforeend', option);
     }
 });
